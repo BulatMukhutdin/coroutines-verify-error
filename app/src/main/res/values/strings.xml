@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">coroutines-verify-error</string>
+
+    <string name="time_d_M_y_pattern" translatable="false">dd MMM yyyy</string>
+    <string name="time_d_M_pattern" translatable="false">dd MMM</string>
+    <string name="time_H_m_pattern" translatable="false">HH:mm</string>
+    <string name="time_h_m_pattern" translatable="false">h:mm a</string>
+
+    <string name="vk_link" translatable="false">https://vk.com/id%s</string>
+
+    <string name="telegram" translatable="false">Telegram</string>
+    <string name="whats_app" translatable="false">Whatsapp</string>
+    <string name="vk_com" translatable="false">Vk.com</string>
+
+    <string name="locale">en</string>
+
+    <string name="splash_error_title">Error</string>
+    <string name="splash_error_message">An error occurred on the server side, please try again later.</string>
+    <string name="splash_try_again">Try again</string>
+    <string name="splash_error_date">Please check the date and time and try again.</string>
+    <string name="splash_correct">Correct</string>
+
+    <string name="exception_alert_network_error_title">Network error</string>
+    <string name="exception_alert_network_error_body">Network error occurred. Please try again later or connect with support service</string>
+    <string name="exception_alert_write_to_support">Write to support</string>
+    <string name="exception_alert_buy_subscription">Buy subscription</string>
+    <string name="exception_alert_unknown_error_title">Error</string>
+    <string name="exception_alert_unknown_error_message">An unexpected error occurred. Please try again later.</string>
+    <string name="exception_alert_open_url">Open in browser</string>
+    <string name="exception_alert_subscribe_later">Subscribe later</string>
+    <string name="exception_alert_change_name">Change name</string>
+    <string name="exception_alert_subscribe_in_social_networks">Subscribe in social networks</string>
+    <string name="exception_alert_show_license">Show license agreement</string>
+
+    <string name="exception_fatal_id">Error ID: <b>%s</b>></string>
+    <string name="exception_fatal_hash" translatable="false">Hash: %s</string>
+    <string name="exception_fatal_support">Please, take a screenshot of this error and send to support</string>
+
+
+    <string name="auth_file_permission_title">In order to work properly, this application need access to save system information. </string>
+    <string name="auth_allow">Allow</string>
+
+    <string name="license_agreement_accept">Accept</string>
+    <string name="license_agreement_decline">Decline</string>
+
+    <string name="tracking_profiles_packages_to_delete_title">Warning!</string>
+    <string name="tracking_profiles_packages_to_delete_deprecated_message">Outdated versions of Netwa was found on your device (%d pcs).\nDo you want to delete it?</string>
+    <string name="tracking_profiles_packages_to_delete_malware_message">Potentially danger applications was found on your device (%d pcs).\nDo you want to delete it?</string>
+    <string name="tracking_profiles_packages_to_delete_deprecated_and_malware_message">Outdated versions of Netwa (%d pcs) and potentially danger applications was found on your device (%d pcs).\nDo you want to delete it?</string>
+    <string name="tracking_profiles_online">Online</string>
+    <string name="tracking_profiles_min_ago">%d min ago</string>
+    <string name="tracking_profiles_today">today</string>
+    <string name="tracking_profiles_yesterday">yesterday</string>
+    <string name="tracking_profiles_unknown">Unknown</string>
+    <string name="tracking_profiles_at">at</string>
+    <string name="tracking_profiles_how_to_start_prompt_title">Add first profile to list</string>
+    <string name="tracking_profiles_copy_number_prompt_title">Enter the number correctly</string>
+    <string name="tracking_profiles_how_to_disable_notifications_prompt_title">How to switch off notifications</string>
+    <string name="tracking_profiles_how_to_remove_profile_prompt_title">How to remove profile</string>
+    <string name="tracking_profiles_wait_prompt_title">You must wait</string>
+    <string name="tracking_profiles_wait_prompt_message">For the collection of statistics will take time. Once the profile is online, you will be notified.</string>
+    <string name="tracking_profiles_more">More</string>
+    <string name="tracking_profiles_rename">Rename</string>
+    <string name="tracking_profiles_delete">Delete</string>
+    <string name="tracking_profiles_rename_title">Enter a new profile name</string>
+    <string name="tracking_profiles_rename_telegram_title">Enter a name for the Telegram profile</string>
+    <string name="tracking_profiles_rename_whats_app_title">Enter a name for the WhatsApp profile</string>
+    <string name="tracking_profiles_rename_hint">Jacob or Emily</string>
+    <string name="tracking_profiles_more_copy">Copy link</string>
+    <string name="tracking_profiles_more_change_sound">Notification sound</string>
+    <string name="tracking_profiles_vibration">Vibration</string>
+    <string name="tracking_profiles_default">Default</string>
+    <string name="tracking_profiles_add_profile_hint">Tap \"+\" button on right top corner to add profile</string>
+    <string name="tracking_profiles_add_telegram_profile">Enter a Telegram number</string>
+    <string name="tracking_profiles_add_whats_app_profile">Enter a WhatsApp number</string>
+    <string name="tracking_profiles_add_vkontakte_profile">Enter a link to a profile of VK.com</string>
+    <string name="tracking_profiles_add_telegram_profile_hint">+12015550123</string>
+    <string name="tracking_profiles_add_whats_app_profile_hint">+12015550123</string>
+    <string name="tracking_profiles_add_vkontakte_profile_hint">vk.com/id1 or id1 or durov</string>
+    <string name="tracking_profiles_toolbar">Favorites</string>
+    <string name="tracking_profiles_copied">Copied</string>
+
+    <string name="statistics_back">Back</string>
+    <string name="statistics_online">Online</string>
+    <string name="statistics_today">Today</string>
+    <string name="statistics_yesterday">Yesterday</string>
+    <string name="statistics_total">Total: %s</string>
+    <string name="statistics_how_to_see_total_time_prompt_title">How to see total time</string>
+    <string name="statistics_help_1">Displays the name of the profile and online status</string>
+    <string name="statistics_help_2">This is calendar. Click on it and select the day</string>
+    <string name="statistics_help_3">This is phases of the day. To show you the activity of profile, we divided the day into two phases. Select the phase to display the desired part of the day. "The Moon" - this is time from 00:00 to 12:00 of noon. "The Sun" - this is time from 12:00 to 23:59 of night</string>
+    <string name="statistics_help_4">The dial shows the time intervals when the profile was active in the social network. If the profile was online several times in a short time, then time periods are recorded in one interval</string>
+    <string name="statistics_help_5">Statistics of profile also contained in a table. One range - this one cell. Each cell has the time periods, when the profile is online. Long press on the cell show the time in seconds</string>
+
+    <string name="settings_subscription">Subscription</string>
+    <string name="settings_social_network">We are in social networks</string>
+    <string name="settings_tech_support">Technical support</string>
+    <string name="settings_agreement">Agreement</string>
+    <string name="settings_about" translatable="false">A</string>
+    <string name="settings_about_title">About the app</string>
+    <string name="settings_copy">Copy</string>
+    <string name="settings_revoke">Revoke a consent</string>
+    <string name="settings_revoke_title">Revoke a consent</string>
+    <string name="settings_revoke_message">Revocation of the consent will entail full deletion of your data from this application. Are you sure?</string>
+    <string name="settings_revoke_sure">Yes, i\'m sure</string>
+    <string name="settings_toolbar">Settings</string>
+    <string name="settings_copied">Copied</string>
+
+    <string name="subscription_until">Subscription: until %s</string>
+    <string name="subscription_profiles">Profiles: %d</string>
+    <string name="subscription_restore">Restore the subscription</string>
+    <string name="subscription_prompt_title">Why you are need a subscription?</string>
+    <string name="subscription_prompt_message">With the subscription you can add profiles for each social network. Amount of profiles depends on subscription. Without subscription the app can be used for a limited time.</string>
+    <string name="subscription_was_not_bought">not bought</string>
+    <string name="subscription_restored_title">Subscription was restored</string>
+    <string name="subscription_restored_message">Subscription is valid until %s</string>
+    <string name="subscription_bought_title">Subscription was bought</string>
+    <string name="subscription_bought_message">Subscription is valid until %s</string>
+    <string name="subscription_purchase_error">Subscription was not purchased</string>
+    <string name="subscription_absence">Subscription not bought</string>
+    <string name="subscription_error_auth_header">Authorization error</string>
+    <string name="subscription_error_auth_message">Authorization using Google account has failed. Please try again or write to technical support.</string>
+    <string name="subscription_error_auth_canceled_header">Authorization canceled</string>
+    <string name="subscription_error_auth_canceled_message">Authorization using Google account was canceled.</string>
+    <string name="subscription_error_connection_header">Connection error</string>
+    <string name="subscription_error_connection_message">Payment request failed. Maybe, you have problems with your network connection. Please try again or write to technical support.</string>
+    <string name="subscription_download_external_app">Download new module</string>
+</resources>
