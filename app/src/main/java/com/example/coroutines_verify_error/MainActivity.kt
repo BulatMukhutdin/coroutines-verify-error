@@ -6,17 +6,17 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
-import org.koin.android.ext.android.inject
 
 class MainActivity : AppCompatActivity(), CoroutineScope by CoroutineScope(Dispatchers.IO) {
-
-    private val converter: Converter by inject()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         launch {
+            val foo = Foo()
+            val converter = Converter(foo)
+
             converter.convert()
         }
     }
